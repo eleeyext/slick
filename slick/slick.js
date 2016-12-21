@@ -1304,7 +1304,6 @@
                     'id': 'slick-slide' + _.instanceUid + i + ''
                 });
             })
-                .find('button').attr('role', 'button').end()
                 .closest('div').attr('role', 'toolbar');
         }
         _.activateADA();
